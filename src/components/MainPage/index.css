@@ -1,0 +1,24 @@
+.fdlLabel{
+    font-size: large;
+}
+
+.fdlInp{
+    padding: 14px;
+    margin: 10px;
+
+}
+
+#fdlCount{
+    width: 20%;
+    padding: 10px;
+    margin: 10px;
+}
+
+
+#searchInp{
+    margin: 10px;
+    font-size: larger;
+    width: 46%;
+    padding: 10px;
+    border-radius: 10px;
+}
