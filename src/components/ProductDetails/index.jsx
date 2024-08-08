@@ -8,7 +8,7 @@ const ProdctDetails = () => {
     console.log(prdId);
 
     const { data: product, error, isLoading } 
-    = useFetchData(`http://fakestoreapi.com/products/${prdId}`, {})
+    = useFetchData(`https://fakestoreapi.com/products/${prdId}`, {})
     console.log(product)
 
     return <Card>
