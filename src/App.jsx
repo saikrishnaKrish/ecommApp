@@ -51,9 +51,9 @@ const App = () => {
   return (
     <div>
       <BrowserRouter>
-        {/* <Header username={username}/> */}
+        <Header username={username}/> 
 
-        <div style={{marginTop: "15%",height:"100vh"}}>
+        <div style={{marginTop: "15%",minHeight:"100vh"}}>
         {/* <MyComponent/> */}
         {/* <InputComponent placeholder={"enter first name"} id="fname"/>
         <InputComponent placeholder={"enter last name"} id="lname"/> 
@@ -90,7 +90,7 @@ const App = () => {
        
         </div>
       
-        {/* <Footer /> */}
+        <Footer /> 
 
         {/* <MyComponent/> */}
       </BrowserRouter>
