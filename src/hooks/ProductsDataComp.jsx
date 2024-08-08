@@ -19,7 +19,16 @@ const  ProdcutsDataComp = (props)=>{  //passing props from parent to child
                    <p>Description : {product.description}</p>   
                    <p> price : {product.price}</p>  
                    <p>Title : {product.title}</p>  
-                  <Button variant="contained" color='success' startIcon={<AddShoppingCartIcon/>}><Link to={`/productdetails/${product.id}`}>Get More Detials</Link> </Button> 
+                  <Button 
+                  variant="contained"
+                   color='success'
+                   style={{position:"static"}}
+                   id='getMoreDetails'
+                   startIcon={<AddShoppingCartIcon/>}
+                   >
+                   
+                  <Link to={`/productdetails/${product.id}`}>Get More Detials</Link> 
+                  </Button> 
      </div>
                 
             </div>
