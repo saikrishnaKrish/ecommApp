@@ -18,7 +18,7 @@ const MainComp = () => {
     // const [isLoading, setIsLoading] = useState(false);
     const [searchInput,setSearchInput] = useState("")
     const [searchResult,setSearchedResult] =useState([])
-    const {error,isLoading,data:prodcutsData} = useFetchData("http://fakestoreapi.com/products",[]) //custom hook
+    const {error,isLoading,data:prodcutsData} = useFetchData("https://fakestoreapi.com/products",[]) //custom hook
 
 
 
@@ -26,7 +26,7 @@ const MainComp = () => {
     // async function MakeApiCall() {
     //     try {
     //         setIsLoading(true)
-    //         let data = await fetch("http://fakestoreapi.com/products");
+    //         let data = await fetch("https://fakestoreapi.com/products");
     //         data = await data.json()
     //         console.log(data)
     //         setProductsData(data)
